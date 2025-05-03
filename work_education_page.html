@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/main.css">
+      <title>Page Title</title>
+   </head>
+   <body>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <img src="https://unsplash.it/30/30" class="mr-2"><a class="navbar-brand" href="index.html"></a>Mental Health Data<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbar-body">
+           <ul class="navbar-nav mr-auto"></ul>
+           <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="work_education_page.html">Work & Education</a></li>
+              <li class="nav-item"><a class="nav-link" href="lifestyle_page.html">Lifestyle</a></li>
+              <li class="nav-item"><a class="nav-link" href="age_gender_page.html">Gender & Age</a></li>
+              <li class="nav-item"><a class="nav-link" href="resources_page.html">Data Sets</a></li>
+           </ul>
+        </div>
+     </nav>
+
+     <div class='my-5'></div>
+      <div class="container" id="bsr-wrapper">
+        <div class='my-5'></div>
+        <h1>WORK & EDUCATION</h1>
+        <div class='my-5'></div>
+         <h6>Work Hours</h6>
+         <div class="row">
+            <div class="col-md-12 text-center">
+                <iframe src="work-stress-density-heatmap.html" height="500px" width="800px"></iframe>
+              <p class="mt-3">This visualization shows a clear lack of correlation between the number of hours worked and a person's overall happiness. Even when individual stress levels are taken into account, there are no clear trends to be seen. For a stress level of moderate, there were quite a few individuals who had low happiness scores and who worked around 26-27 hours per week. However, there were also quite a few who worked around 50-51 hours per week but had quite high happiness scores. Therefore no assumption can be made that a higher number of hours worked means a lower happiness score. If anything, it may be the opposite, but there is not enough support for that claim either.</p>
+            </div>
+          </div>
+          
+         
+         <div class='my-5'></div>
+         
+         <h6>Industry/Field</h6>
+         <div class="row">
+           <div class="col-md-12 text-center">
+             <iframe src="industry-mental-health.html" width="800px" height="500px"></iframe>
+             <p class="mt-3">This graph, which compares the subject's career industry to any mental diognoses, has interesting findings. It shows that Healthcare has the lowest count of anxiety diognoses, while IT has the highest. Contrastingly, Healthcare has the highest count of depression diognoses, while Manufacturing has the least. This could show that Healthcare is not a very anxiety-inducing field, however it may be a very depressing job to work, perhaps because you are often surrounded by suffering and death. Overall, Manufacturing has the least number of total diognoses, while IT has the most. This data shows that IT is an industry with high mental health cases, while manufacturing is an industry with low cases, though no clear reasoning can be found. Therefore, one's occupation may have an impact on their mental health, for example working in healthcare, or it may not. </p>
+           </div>
+         </div>
+         
+         <div class='my-5'></div>
+         
+         <h6>Education Level</h6>
+         <div class="row">
+           <div class="col-md-12 text-center">
+             <iframe src="education-level.html" width="800px" height="500px"></iframe>
+             <p class="mt-3">This bar chart shows average depression score versus education level. A doctorate education level had the lowest average depression score, while bachelor's had the highest. A master's level was also a higher depression score than a high school education level. Therefore, the trend seems to be that the higher one's education level is, the lower their depression score is, with th exception of a high school education, which had the second lowest depression score. This appears to mean that if a person wants a higher education, then they will tend to be less depressed as they increase in education level. However, if one does not want a higher education and instead stops schooling after a high school diploma, they will be less depressed on average than a counterpart who stopped after a bachelor's or master's degree. The trends show that unless one plans to go to school until they have a PhD, they're mental health will be better off if they just avoid college all together.</p>
+           </div>
+         </div>         
+      </div>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><script src="js/main.js"></script>
+      <footer class="bg-light text-dark pt-5 pb-2 px-5">
+        <div class="row">
+           <div class="col-md-3">
+              <h2 class="mb-1">Thanks for reading!</h2>
+              <p class="mb-3"><small><em>Courtesy of:</em></small></p>
+              <p>Ava Sorrentino<br>Magdalena Regenauer</p>
+           </div>
+           <div class="col-md-9">
+              <h5>Resources</h5>
+              <ul class="list-group list-group-flush">
+                 <li class="list-group-item py-1 bg-transparent border-0"><a href="hotline_page.html" target="https://988lifeline.org/">988 Suicide and Crisis Lifeline</a></li>
+              </ul>
+           </div>
+        </div>
+        <hr>
+        <div class="row mt-4">
+           <div class="col-sm-12">
+              <p>Copyright © 2025 University of Notre Dame</p>
+           </div>
+        </div>
+     </footer>
+   </body>
+</html>
